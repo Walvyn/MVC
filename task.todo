@@ -1,0 +1,18 @@
+Form :
+ ☐ Méthode pour créer et afficher un boutton ou un submit
+ ☐ Mettre a jour les docBlocks et faire la doxygen doc
+
+Db :
+ ☐ Fonction qui retourne simplement les champs et non un objet, a voir dans modèle pour un genre de toString
+ ✔ Fonction pour crée des tables dans la base de données en passant les colonnes (nom, type, options) avec options rafraichissement des classes modèles @done (14-04-01 18:46)
+ ☐ Faire une doc pour utiliser ORM
+ ✔ faire des requete DB::query dans modele @done (14-03-27 17:48)
+ ☐ Chercher si les colonne que l'on update ou set sont présente dans la class representant la table
+ ☐ Ajouter des columns si la table existe (Table::query / ALTER TABLE)
+
+ Data :
+ ☐ Ajouter des cookies
+
+Router :
+ ☐ Ajouter la gestion des langues (option à activer), /en/ recup -> set DEFINE(LANG, en); -> router url (site/home) -> /en/site/home
+ ☐ Possibilité de traduction des urls
